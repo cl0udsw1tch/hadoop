@@ -19,7 +19,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 public class App {
 
     private static Utils utils;
-    private final static int MAX_ITERS = 1;
+    private final static int MAX_ITERS = 5;
     public static void main( String[] args ) throws Exception {
 
       final String SHAKESPEARE_PATH = args[0];

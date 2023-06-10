@@ -15,7 +15,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/mordecai/Documents/MIE/MIE1628/assignments/assignment1/target/surefire/surefirebooter360989222756369750.jar /home/mordecai/Documents/MIE/MIE1628/assignments/assignment1/target/surefire 2023-06-10T15-30-34_684-jvmRun1 surefire5643053171042341952tmp surefire_03683384989581697866tmp"/>
+    <property name="sun.java.command" value="/home/mordecai/Documents/MIE/MIE1628/assignments/assignment1/target/surefire/surefirebooter1187354400722682171.jar /home/mordecai/Documents/MIE/MIE1628/assignments/assignment1/target/surefire 2023-06-10T15-55-25_186-jvmRun1 surefire5242168044731805299tmp surefire_05706606925324140997tmp"/>
     <property name="surefire.test.class.path" value="/home/mordecai/Documents/MIE/MIE1628/assignments/assignment1/target/test-classes:/home/mordecai/Documents/MIE/MIE1628/assignments/assignment1/target/classes:/home/mordecai/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mordecai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/mordecai/.m2/repository/org/apache/hadoop-common/3.3.0/hadoop-common-3.3.0.jar:/home/mordecai/.m2/repository/org/apache/hadoop-mapreduce-client-core/3.3.0/hadoop-mapreduce-client-core-3.3.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/mordecai"/>
@@ -28,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/mordecai/Documents/MIE/MIE1628/assignments/assignment1/target/surefire/surefirebooter360989222756369750.jar"/>
+    <property name="surefire.real.class.path" value="/home/mordecai/Documents/MIE/MIE1628/assignments/assignment1/target/surefire/surefirebooter1187354400722682171.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_362-8u362-ga-0ubuntu1~22.04-b09"/>

@@ -1,1 +1,0 @@
-hadoop fs -rm -r /user/mordecai/assignment1/output

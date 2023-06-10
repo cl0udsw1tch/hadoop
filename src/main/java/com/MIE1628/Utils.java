@@ -87,11 +87,8 @@ public class Utils {
     this.hdfs.copyToLocalFile(false, hdfsPath, localPath, false);
     Utils.print("Copied output directory [hdfs] into source directory [local].");
 
-    
-    File logFile = new File("output/logs/").listFiles()[0];
-    java.nio.file.Path source = logFile.toPath();
-    String logName = logFile.getName();
-    java.nio.file.Path  destination = Paths.get("logs/" + logName);
+    java.nio.file.Path source = Paths.get("output/logs/" + this.logFilePath.getName());
+    java.nio.file.Path destination = Paths.get("logs/" + this.logFilePath.getName());
     Files.copy(source, destination);
     Utils.deleteLocalDir("output/logs");
   }
@@ -100,7 +97,7 @@ public class Utils {
     File file = new File(directory);
     for (File subFile : file.listFiles()) {
       if(subFile.isDirectory()) {
-         Utils.deleteLocalDir(subFile.getName());
+         Utils.deleteLocalDir(subFile.getAbsolutePath());
       } else {
          subFile.delete();
       }
